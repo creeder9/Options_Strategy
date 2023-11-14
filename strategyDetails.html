@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Strategy Details</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Strategy Details</h1>
+    <div id="strategyInfo">
+        <!-- Strategy information will be populated here -->
+    </div>
+    <div>
+        <img src="C:\Users\carso\Fall23\Capstone\Project\chart.png" alt="Strategy Chart">
+    </div>
+    <button onclick="window.history.back();">Back to Strategies</button>
+</body>
+</html>
+<script>
+    window.onload = function() {
+        const params = new URLSearchParams(window.location.search);
+        const strategyName = params.get('name');
+        const username = params.get('user');
+
+        // Placeholder data - replace with actual logic to fetch strategy details
+        document.getElementById('strategyInfo').innerHTML = `<p><strong>${strategyName}</strong> by ${username}</p>`;
+        document.getElementById('strategyChart').src = 'path/to/chart.png'; // Update with actual path
+        document.getElementById('strategyPayout').src = 'path/to/payout.png'; // Update with actual path
+    };
+</script>
+<div id="investmentProgress">
+    <div id="progressBar" style="width: 0%;"></div>
+</div>
+const currentInvestment = 5000; // Example current investment
+const targetInvestment = 10000; // Example target investment
+const investmentProgress = (currentInvestment / targetInvestment) * 100;
+
+document.getElementById('progressBar').style.width = `${investmentProgress}%`;
+

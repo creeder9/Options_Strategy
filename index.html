@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mock Options Strategy Platform</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the Mock Options Strategy Platform</h1>
+
+    <!-- Login Form -->
+    <div id="loginSection">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Strategy Submission Form -->
+    <div id="strategySection" style="display:none;">
+        <h2>Create a Strategy</h2>
+        <form id="createStrategyForm">
+            <input type="text" id="strategyName" placeholder="Strategy Name" required><br>
+            <textarea id="strategyDescription" placeholder="Strategy Description" required></textarea><br>
+            <input type="number" id="targetInvestment" placeholder="Target Investment" required><br>
+            <button type="submit">Create Strategy</button>
+        </form>
+    </div>
+
+    <!-- Strategy Listing -->
+    <div id="strategiesList">
+        <h2>Available Strategies</h2>
+        <!-- Strategies will be listed here -->
+    </div>
+
+    <!-- User Profile -->
+    <div id="userProfile" style="display:none;">
+        <h2>User Profile</h2>
+        <!-- User profile information will be listed here -->
+    </div>
+
+    <!-- Strategy Details -->
+    <div id="strategyDetails" style="display:none;">
+        <h2>Strategy Details</h2>
+        <!-- Strategy details will be listed here -->
+        <!-- Placeholder for Chart and Possible Payout -->
+        <img id="strategyChart" src="" alt="Strategy Chart" style="display:none;">
+        <img id="strategyPayout" src="" alt="Possible Payout" style="display:none;">
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
