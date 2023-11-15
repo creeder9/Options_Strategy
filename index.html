@@ -16,38 +16,34 @@
         </form>
     </div>
 
-    <!-- Strategy Submission Form -->
+    <!-- Strategy Submission Form and Section (hidden initially) -->
     <div id="strategySection" style="display:none;">
-        <h2>Create a Strategy</h2>
-        <form id="createStrategyForm">
-            <input type="text" id="strategyName" placeholder="Strategy Name" required><br>
-            <textarea id="strategyDescription" placeholder="Strategy Description" required></textarea><br>
-            <input type="number" id="targetInvestment" placeholder="Target Investment" required><br>
-            <button type="submit">Create Strategy</button>
-        </form>
+        <button id="toggleCreateStrategyForm">Create a Strategy</button>
+        <div id="createStrategyContainer" style="display: none;">
+            <form id="createStrategyForm">
+                <input type="text" id="strategyName" placeholder="Strategy Name" required><br>
+                <textarea id="strategyDescription" placeholder="Strategy Description" required></textarea><br>
+                <input type="number" id="targetInvestment" placeholder="Target Investment" required><br>
+                <button type="submit">Create Strategy</button>
+            </form>
+        </div>
     </div>
 
-    <!-- Strategy Listing -->
-    <div id="strategiesList">
+    <!-- Strategy Listing (hidden initially) -->
+    <div id="strategiesList" style="display:none;">
         <h2>Available Strategies</h2>
-        <!-- Strategies will be listed here -->
     </div>
 
-    <!-- User Profile -->
+    <!-- User Profile (hidden initially) -->
     <div id="userProfile" style="display:none;">
         <h2>User Profile</h2>
-        <!-- User profile information will be listed here -->
     </div>
 
-    <!-- Strategy Details -->
+    <!-- Strategy Details (hidden initially) -->
     <div id="strategyDetails" style="display:none;">
         <h2>Strategy Details</h2>
-        <!-- Strategy details will be listed here -->
-        <!-- Placeholder for Chart and Possible Payout -->
-        <img id="strategyChart" src="" alt="Strategy Chart" style="display:none;">
-        <img id="strategyPayout" src="" alt="Possible Payout" style="display:none;">
     </div>
 
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
