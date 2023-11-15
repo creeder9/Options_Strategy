@@ -14,3 +14,10 @@ npm run
 4) Open the index.html file   :::   
 (literally just click it)
 
+
+FUTURE DIRECTION
+- Create a smart contract that will interact with our front end through Ganache
+- Make more preposted options strategies/fix some bugs regarding to that
+- Incorperate metamask to send funds towards crowdfunding
+- Create user profiles that show a history of strategies they've posted
+  
