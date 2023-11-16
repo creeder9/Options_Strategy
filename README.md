@@ -8,7 +8,6 @@ pip install node_modules
 3) start the server   :::   
 npm run
 4) Open the index.html file   :::   
-(literally just click it)
 
 IMMEDIATE FIXES
 1) When posting a strategy, the premade strategies dissappear
