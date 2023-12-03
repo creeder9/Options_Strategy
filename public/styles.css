@@ -1,0 +1,90 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #FFFFFF; /* Light text for readability */
+    font-family: Arial, sans-serif; /* Example font */
+    /* Increase the base font size as needed */
+    font-size: 18px; /* Adjust this value to make the text bigger */
+}
+
+h1, h2, h3 {
+    color: #E0E0E0; /* Slightly dimmer color for headings */
+    text-align: center; /* Center the heading text */
+    font-size: 2.5em; /* Make the heading text bigger */
+}
+
+#lemurLogo {
+    display: block;
+    margin: auto; /* This will center the image */
+    width: 50%; /* Adjust this to make the image smaller */
+    max-width: 300px; /* A max-width that's smaller than 600px */
+    height: auto; /* Maintain aspect ratio */
+}
+
+input[type="text"], textarea, input[type="number"] {
+    background-color: #1E1E1E; /* Darker background for input fields */
+    color: #FFFFFF; /* Light text */
+    border: 1px solid #333333; /* Subtle borders for input fields */
+    padding: 5px; /* Padding for input fields */
+}
+
+button {
+    background-color: #333333; /* Dark background for buttons */
+    color: #FFFFFF; /* Light text for buttons */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444444; /* Slightly lighter on hover */
+}
+
+#strategiesList p {
+    background-color: #E19338;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#strategiesList p:hover {
+    background-color: #121212;
+}
+
+
+#strategyDetails {
+    margin-top: 20px;
+}
+
+.strategy-chart {
+    max-width: 100%;
+    height: auto;
+}
+
+#investmentProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#progressBar {
+    height: 20px;
+    background-color: #4CAF50;
+}
+
+#toggleCreateStrategyForm {
+    background-color: #333333; /* Dark background for the button */
+    color: #FFFFFF; /* Light text for the button */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#toggleCreateStrategyForm:hover {
+    background-color: #444444; /* Slightly lighter on hover */
+}
+
+#createStrategyContainer {
+    margin-top: 10px;
+    /* Add any other necessary styling */
+}
