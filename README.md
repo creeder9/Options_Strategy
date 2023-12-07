@@ -6,7 +6,7 @@ EXTREMELY BASIC INSTRUCTIONS=
 2) install requirements   :::   
 pip install node_modules
 3) start the server   :::   
-npm run
+npm start server.js
 4) Open the index.html file   :::   
 
 
